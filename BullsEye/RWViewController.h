@@ -10,4 +10,6 @@
 
 @interface RWViewController : UIViewController
 
+- (IBAction)showAlert;
+
 @end
