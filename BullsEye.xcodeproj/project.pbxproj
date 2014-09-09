@@ -21,6 +21,7 @@
 		FED1AFAC19BAE47300C32F8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED1AF8E19BAE47300C32F8B /* UIKit.framework */; };
 		FED1AFB419BAE47300C32F8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FED1AFB219BAE47300C32F8B /* InfoPlist.strings */; };
 		FED1AFB619BAE47300C32F8B /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FED1AFB519BAE47300C32F8B /* BullsEyeTests.m */; };
+		FED1AFC119BF6D8A00C32F8B /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED1AFC019BF6D8A00C32F8B /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FED1AFB119BAE47300C32F8B /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		FED1AFB319BAE47300C32F8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FED1AFB519BAE47300C32F8B /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		FED1AFBF19BF6D8900C32F8B /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		FED1AFC019BF6D8A00C32F8B /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				FED1AF9C19BAE47300C32F8B /* Main.storyboard */,
 				FED1AF9F19BAE47300C32F8B /* RWViewController.h */,
 				FED1AFA019BAE47300C32F8B /* RWViewController.m */,
+				FED1AFBF19BF6D8900C32F8B /* AboutViewController.h */,
+				FED1AFC019BF6D8A00C32F8B /* AboutViewController.m */,
 				FED1AFA219BAE47300C32F8B /* Images.xcassets */,
 				FED1AF9119BAE47300C32F8B /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				FED1AF9719BAE47300C32F8B /* main.m in Sources */,
 				FED1AFA119BAE47300C32F8B /* RWViewController.m in Sources */,
+				FED1AFC119BF6D8A00C32F8B /* AboutViewController.m in Sources */,
 				FED1AF9B19BAE47300C32F8B /* RWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
