@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RWViewController : UIViewController
+@interface RWViewController : UIViewController <UIAlertViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UISlider *slider;
 
@@ -21,5 +21,7 @@
 - (IBAction)showAlert;
 
 - (IBAction)sliderMoved:(UISlider *)slider;
+
+- (IBAction)startOver;
 
 @end
