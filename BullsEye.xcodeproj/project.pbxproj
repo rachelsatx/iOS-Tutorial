@@ -22,6 +22,7 @@
 		FED1AFB419BAE47300C32F8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FED1AFB219BAE47300C32F8B /* InfoPlist.strings */; };
 		FED1AFB619BAE47300C32F8B /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FED1AFB519BAE47300C32F8B /* BullsEyeTests.m */; };
 		FED1AFC119BF6D8A00C32F8B /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED1AFC019BF6D8A00C32F8B /* AboutViewController.m */; };
+		FED1AFC519BF863700C32F8B /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = FED1AFC419BF863700C32F8B /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		FED1AFB519BAE47300C32F8B /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
 		FED1AFBF19BF6D8900C32F8B /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		FED1AFC019BF6D8A00C32F8B /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		FED1AFC419BF863700C32F8B /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		FED1AF9019BAE47300C32F8B /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				FED1AFC419BF863700C32F8B /* BullsEye.html */,
 				FED1AF9919BAE47300C32F8B /* RWAppDelegate.h */,
 				FED1AF9A19BAE47300C32F8B /* RWAppDelegate.m */,
 				FED1AF9C19BAE47300C32F8B /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FED1AFA319BAE47300C32F8B /* Images.xcassets in Resources */,
+				FED1AFC519BF863700C32F8B /* BullsEye.html in Resources */,
 				FED1AF9519BAE47300C32F8B /* InfoPlist.strings in Resources */,
 				FED1AF9E19BAE47300C32F8B /* Main.storyboard in Resources */,
 			);
